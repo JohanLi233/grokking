@@ -1,0 +1,27 @@
+{
+  "paper": "arXiv:2201.02177",
+  "preset": "paper_default",
+  "task": "division_mod_p",
+  "p": 97,
+  "train_frac": 0.5,
+  "seed": 0,
+  "steps": 100000,
+  "batch_size_effective": 512,
+  "lr": 0.001,
+  "weight_decay": 1.0,
+  "warmup_steps": 10,
+  "optimizer": "adamw",
+  "beta1": 0.9,
+  "beta2": 0.98,
+  "d_model": 128,
+  "n_heads": 4,
+  "n_layers": 2,
+  "mlp_mult": 4,
+  "dropout": 0.0,
+  "eval_every": 1000,
+  "device": "mps",
+  "metadata": {
+    "op_id": 97,
+    "eq_id": 98
+  }
+}

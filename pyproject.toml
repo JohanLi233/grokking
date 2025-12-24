@@ -1,0 +1,11 @@
+[project]
+name = "groking"
+version = "0.1.0"
+description = "使用小型transformer在模分解任务上复现 Grokking 现象。"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "matplotlib>=3.8",
+  "numpy>=2.0",
+  "torch>=2.2",
+]
