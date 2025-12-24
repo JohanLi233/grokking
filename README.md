@@ -16,9 +16,9 @@ The repo includes:
 
 We study the task
 
-\[
+$$
 c = x \cdot y^{-1} \pmod{97}, \quad x \in \{0,\dots,96\},\; y \in \{1,\dots,96\}
-\]
+$$
 
 Each example is represented as a token sequence:
 
